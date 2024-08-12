@@ -15,7 +15,7 @@
   dependencies:
     "@aws-sdk/client-lambda" "^3.154.0"
     "@aws-sdk/client-sqs" "^3.154.0"
-    dynamoose "3.1.0"
+    dynamoose "3.2.0"
     fs-extra "^10.1.0"
     uuid "^8.3.2"
 
@@ -2268,21 +2268,21 @@ duration@^0.2.2:
     d "1"
     es5-ext "~0.10.46"
 
-dynamoose-utils@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/dynamoose-utils/-/dynamoose-utils-3.1.0.tgz#041ba8ebe1de4f1671422f4f48a5e851fd675680"
-  integrity sha512-HeSR4H9HvhQM2zb+4LuQlfQMHYCSn9aSsAyDArUlqfLn3cDCfrYN/HBMVTv8pNkqOakAB7MlYOW7ubDThbsvKQ==
+dynamoose-utils@^3.2.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/dynamoose-utils/-/dynamoose-utils-3.3.0.tgz#03f6c7f5b8bf31acde2fcd87c933e4d9eb7084e2"
+  integrity sha512-j+1KvqXAWcz0P7BwEehOR+o2chQNFVdrTQlftf+3uL4xeW6C9I/lYLdEFVaa6Mu9bVTj05pLoKyXlM8QcDFqXw==
   dependencies:
     js-object-utilities "^2.1.0"
 
-dynamoose@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/dynamoose/-/dynamoose-3.1.0.tgz#31d02b8c0039296160363e76d9a7596cf0801bfe"
-  integrity sha512-YR1AeTp6/aOyM5dZIUAKpgmwn7YxlJNSz00zminFSzlpfxkq/6n9qa0Ws79XwdM0+Q4AVRvwhWtlMI+H2Zi59Q==
+dynamoose@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/dynamoose/-/dynamoose-3.2.0.tgz#1fbb288b47383c306ae0212695123bedd2602ae6"
+  integrity sha512-mjztJAMdNUyXOJfsxxA0biJeBpqIY0gwKduxg/CUHSS3NHWmnI2hLo/4dCMzVhg107vXqH5xFYACHVFxSe/GAw==
   dependencies:
     "@aws-sdk/client-dynamodb" "^3.142.0"
     "@aws-sdk/util-dynamodb" "^3.142.0"
-    dynamoose-utils "^3.1.0"
+    dynamoose-utils "^3.2.0"
     js-object-utilities "^2.1.0"
 
 emoji-regex@^8.0.0:
@@ -2897,9 +2897,9 @@ globby@^11.1.0:
     slash "^3.0.0"
 
 got@^11.8.3:
-  version "11.8.3"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.8.3.tgz#f496c8fdda5d729a90b4905d2b07dbd148170770"
-  integrity sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==
+  version "11.8.6"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.6.tgz#276e827ead8772eddbcfc97170590b841823233a"
+  integrity sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
